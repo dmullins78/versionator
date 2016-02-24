@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "versionator",
+    "packageName": "org.dmullins",
+    "packageFolder": "org/dmullins",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "a8d48b8a1b38af58f98b518d3babd5605a269e31",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}

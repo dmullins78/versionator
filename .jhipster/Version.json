@@ -1,0 +1,35 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "application",
+            "otherEntityName": "application",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "number",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "environment",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "releaseDate",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20160223021351",
+    "dto": "no",
+    "service": "no",
+    "pagination": "no"
+}

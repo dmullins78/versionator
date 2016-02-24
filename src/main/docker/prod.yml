@@ -1,0 +1,10 @@
+versionator-postgresql:
+  container_name: versionator-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/versionator/postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=versionator
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"

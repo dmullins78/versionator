@@ -1,0 +1,23 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "versions",
+            "otherEntityName": "version",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "application"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20160223021126",
+    "dto": "no",
+    "service": "no",
+    "pagination": "no"
+}
